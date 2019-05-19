@@ -11,6 +11,11 @@ const piece = [
     [0,1,0],
 ];
 
+/**
+ * Draws a piece on the Board (canvas)
+ * @param {*} piece the piece to be drawn
+ * @param {*} offset offset of the piece (x,y)
+ */
 function drawPiece(piece, offset) {
     piece.forEach((row, y) => {
         row.forEach((value, x) => {
