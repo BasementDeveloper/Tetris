@@ -12,6 +12,11 @@ const piece = [
     [0,1,0],
 ];
 
+/**
+ * creates a Boardmatrix
+ * @param  w width of the board
+ * @param  h height of the board
+ */
 function createBoard(w,h){
     const board = []
     while(h--){
@@ -28,7 +33,7 @@ function draw(){
 }
 
 function collide(arena, player){
-    
+
 }
 
 /**
